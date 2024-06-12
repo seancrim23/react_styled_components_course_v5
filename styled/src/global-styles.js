@@ -1,3 +1,6 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
 :root {
   --primary: #645cff;
   --mainBorder: 1px solid red;
@@ -40,7 +43,6 @@ body {
   text-transform: uppercase;
   color: red;
 }
+`
 
-/*@media screen and (min-width:768px) {
-
-}*/
+export default GlobalStyles;
